@@ -123,14 +123,3 @@ This project is licensed under the **MIT License**.
 
 👨‍💻 Developed by **Sahil Khan**
 
-```
-
----
-
-✅ This file is **ready to copy-paste** as `README.md`.  
-Just make sure you:  
-- Put your screenshots in a folder named `screenshots/` at the project root.  
-- Update the `git clone` URL with your GitHub repo link.  
-
-Do you also want me to **include code snippets (frontend + backend)** inside the README so recruiters can quickly see your implementation without opening files?
-```
