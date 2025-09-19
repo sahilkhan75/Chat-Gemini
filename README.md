@@ -1,70 +1,144 @@
-# Getting Started with Create React App
+Got it ✅ I’ll create a **ready-to-use `README.md` file** with **proper explanation + screenshots**. You just need to create a folder called `screenshots/` in your repo and place your screenshots there (rename them properly like `chat-ui.png`, `input-speaker.png`, etc.).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Here’s your **README.md** ⬇️
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+```markdown
+# 🤖 Gemini API Integration Chat App
 
-### `npm start`
+This is a **React + Node.js** application that integrates with **Google Gemini API** to provide a chatbot experience.  
+It allows users to type questions, get instant responses, and even listen to the answers with a built-in **text-to-speech** feature.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ✨ Features
 
-### `npm test`
+- 💬 Ask any question and get AI-powered responses.  
+- 🎤 **Text-to-Speech Support** – listen to the bot’s response.  
+- ⚡ Simple and responsive chat interface.  
+- 🔗 Backend API built with **Node.js & Express**.  
+- 🌍 CORS-enabled for smooth frontend-backend communication.  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🖼️ Screenshots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 1. Chat Interface , Input Box with Speaker Button
+The chatbot responds with answers fetched from the Gemini API.  
+![Chat UI](./screenshots/chat-ui.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🛠️ Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Frontend:** React, Axios, CSS  
+- **Backend:** Node.js, Express, Google Generative AI SDK  
+- **API Used:** Gemini 1.5 Flash  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📂 Project Structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
 
-## Learn More
+gemini-chat-app/
+│
+├── frontend/              # React app
+│   ├── src/
+│   │   ├── App.js         # Main React component
+│   │   ├── App.css        # Styling
+│   │   └── index.js
+│   └── package.json
+│
+├── backend/               # Express server
+│   ├── app.js             # API route
+│   ├── server.js          # Server start file
+│   └── package.json
+│
+├── screenshots/           # UI screenshots
+│   ├── chat-ui.png
+│   └── input-speaker.png
+│
+└── README.md              # Documentation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+````
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🔑 Environment Variables
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Create a `.env` file inside your **backend/** folder and add:  
 
-### Analyzing the Bundle Size
+```env
+GOOGLE_API_KEY=your_google_api_key_here
+````
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## ⚡ Installation & Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### 1️⃣ Clone Repository
 
-### Advanced Configuration
+```bash
+git clone https://github.com/your-username/gemini-chat-app.git
+cd gemini-chat-app
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### 2️⃣ Setup Backend
 
-### Deployment
+```bash
+cd backend
+npm install
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### 3️⃣ Setup Frontend
 
-### `npm run build` fails to minify
+```bash
+cd frontend
+npm install
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## ▶️ Usage
+
+1. Start **backend** (`npm start` inside backend).
+2. Start **frontend** (`npm start` inside frontend).
+3. Type your question in the input box and press **Send**.
+4. Click the **🔊 Speaker button** to listen to the response.
+
+---
+
+## 🚀 Future Improvements
+
+* Save chat history in local storage or database
+* Add multiple language support (Hindi, Spanish, etc.)
+* Add authentication (login & signup)
+* Deploy frontend + backend on a single domain
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+👨‍💻 Developed by **Sahil Khan**
+
+```
+
+---
+
+✅ This file is **ready to copy-paste** as `README.md`.  
+Just make sure you:  
+- Put your screenshots in a folder named `screenshots/` at the project root.  
+- Update the `git clone` URL with your GitHub repo link.  
+
+Do you also want me to **include code snippets (frontend + backend)** inside the README so recruiters can quickly see your implementation without opening files?
+```
