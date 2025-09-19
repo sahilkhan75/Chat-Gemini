@@ -1,38 +1,79 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 100vh;
+  background: #1a1d29;
+  font-family: 'Poppins', sans-serif;
   color: white;
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+/* Chat area */
+.chat-box {
+  width: 60%;
+  height: 100%;
+  overflow-y: auto;
+  scrollbar-width: none;
+  padding: 10px;
+  border-radius: 12px;
+  background: gray;
+  margin-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.placeholder {
+  text-align: center;
+  color: yellow;
+  font-size: larger;
+}
+
+.bot-response {
+  background: rgb(60, 59, 59);
+  padding: 12px;
+  border-radius: 10px;
+  max-width: 100%;
+  margin: 10px 0;
+  white-space: pre-wrap;
+}
+
+/* Input area */
+.input-box {
+  display: flex;
+  width: 60%;
+  gap: 10px;
+}
+
+.input-box input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.input-box button {
+  background: #3a7bd5;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.input-box button:hover {
+  background: #2f5ea8;
+}
+
+.typing {
+  color: #aaa;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+
+.input-box button[type="button"] {
+  background: #444;
 }
