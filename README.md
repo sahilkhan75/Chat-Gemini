@@ -22,14 +22,6 @@ It allows users to type questions, get instant responses, and even listen to the
 
 ---
 
-## 🖼️ Screenshots
-
-### 1. Chat Interface , Input Box with Speaker Button
-The chatbot responds with answers fetched from the Gemini API.  
-![Chat UI](public/screenshots/chat-ui.png)
-
----
-
 ---
 
 ## 🛠️ Tech Stack
